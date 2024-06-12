@@ -16,6 +16,8 @@ services:
       - database
     ports:
       - 3000:3000
+    volumes:
+      - ./media:/app/media
   
   #The postgres database: 
   database:
